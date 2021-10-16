@@ -1,0 +1,52 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 6px 12px;
+  padding: 10px;
+  flex: 1;
+  min-height: 30vh;
+}
+
+.back-button {
+  background-color: solid white;
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 0px 8px;
+  width: 5%;
+  cursor: pointer;
+  margin-left: 16px;
+}
+
+.back-button label {
+  margin-left: 4px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.about-info {
+  border-radius: 50px;
+  background: #8f00ff;
+  box-shadow: 24px 24px 48px #7a00d9, -24px -24px 48px #a400ff;
+  margin: auto;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 20vh;
+  width: 80%;
+  text-align: justify;
+  text-indent: 50px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .back-button {
+    width: 10%;
+  }
+}
+
+@media only screen and (max-width: 512px) {
+  .back-button {
+    width: 15%;
+  }
+}

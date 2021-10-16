@@ -1,0 +1,23 @@
+footer {
+  display: flex;
+  justify-content: center;
+  font-weight: 300;
+  padding-bottom: 6px;
+  margin-top: 200px;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 1024px) {
+  footer {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+  }
+}
+
+@media only screen and (max-width: 512px) {
+  footer {
+    display: flex;
+    justify-content: center;
+  }
+}

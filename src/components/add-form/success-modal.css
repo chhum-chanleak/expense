@@ -1,0 +1,39 @@
+.ReactModal__Content {
+  background-color: purple;
+}
+
+.modal-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.added-image {
+  height: 360px;
+}
+
+.take-home-button {
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 4px 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+.take-home-button i {
+  justify-content: center;
+  align-items: center;
+  margin-right: 4px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .added-image {
+    height: 328px;
+  }
+}
+
+@media only screen and (max-width: 512px) {
+  .added-image {
+    height: 240px;
+  }
+}

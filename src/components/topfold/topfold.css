@@ -1,0 +1,78 @@
+.topfold {
+  display: flex;
+  justify-content: space-between;
+  margin: 6px 12px;
+  padding: 12px 0px;
+  align-items: center;
+}
+
+.topfold label {
+  cursor: pointer;
+}
+
+.home-topfold {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  border-radius: 12px;
+  background-color: white;
+}
+
+.search-bar svg {
+  display: flex;
+  margin-left: 6px;
+  align-items: center;
+}
+
+.search-bar input {
+  border: 0px;
+  border-radius: 6px;
+  outline: none;
+  padding: 8px 0px;
+  margin-left: 6px;
+  width: 90%;
+}
+
+.add-button {
+  display: flex;
+  border: 1px solid black;
+  border-radius: 6px;
+  font-size: 20px;
+  padding: 0px 8px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.add-button svg {
+  display: flex;
+  margin-left: 6px;
+}
+
+.add-topfold {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.add-topfold-button {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 18px;
+  border: 1px solid black;
+  border-radius: 6px;
+  padding: 0px 8px;
+  font-weight: 600px;
+}
+
+.add-topfold-button svg {
+  display: flex;
+  align-items: center;
+  margin-right: 4px;
+}
