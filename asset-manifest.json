@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/expense-tracker/static/css/main.51f7b5df.chunk.css",
-    "main.js": "/expense-tracker/static/js/main.c7a843b7.chunk.js",
-    "main.js.map": "/expense-tracker/static/js/main.c7a843b7.chunk.js.map",
-    "runtime-main.js": "/expense-tracker/static/js/runtime-main.2a5371df.js",
-    "runtime-main.js.map": "/expense-tracker/static/js/runtime-main.2a5371df.js.map",
-    "static/css/2.f4c56af9.chunk.css": "/expense-tracker/static/css/2.f4c56af9.chunk.css",
-    "static/js/2.c4b68e0a.chunk.js": "/expense-tracker/static/js/2.c4b68e0a.chunk.js",
-    "static/js/2.c4b68e0a.chunk.js.map": "/expense-tracker/static/js/2.c4b68e0a.chunk.js.map",
-    "static/js/3.01dc2f2b.chunk.js": "/expense-tracker/static/js/3.01dc2f2b.chunk.js",
-    "static/js/3.01dc2f2b.chunk.js.map": "/expense-tracker/static/js/3.01dc2f2b.chunk.js.map",
-    "index.html": "/expense-tracker/index.html",
-    "static/css/2.f4c56af9.chunk.css.map": "/expense-tracker/static/css/2.f4c56af9.chunk.css.map",
-    "static/css/main.51f7b5df.chunk.css.map": "/expense-tracker/static/css/main.51f7b5df.chunk.css.map",
-    "static/js/2.c4b68e0a.chunk.js.LICENSE.txt": "/expense-tracker/static/js/2.c4b68e0a.chunk.js.LICENSE.txt",
-    "static/media/added-image.png": "/expense-tracker/static/media/added-image.94b293c9.png",
-    "static/media/education.png": "/expense-tracker/static/media/education.f21be753.png",
-    "static/media/empty.png": "/expense-tracker/static/media/empty.f575b5cb.png",
-    "static/media/food.png": "/expense-tracker/static/media/food.7bf88c6f.png",
-    "static/media/healthcare.png": "/expense-tracker/static/media/healthcare.d26b4326.png"
+    "main.css": "/static/css/main.e4268997.chunk.css",
+    "main.js": "/static/js/main.4b410887.chunk.js",
+    "main.js.map": "/static/js/main.4b410887.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.762cf323.js",
+    "runtime-main.js.map": "/static/js/runtime-main.762cf323.js.map",
+    "static/css/2.f4c56af9.chunk.css": "/static/css/2.f4c56af9.chunk.css",
+    "static/js/2.c4b68e0a.chunk.js": "/static/js/2.c4b68e0a.chunk.js",
+    "static/js/2.c4b68e0a.chunk.js.map": "/static/js/2.c4b68e0a.chunk.js.map",
+    "static/js/3.01dc2f2b.chunk.js": "/static/js/3.01dc2f2b.chunk.js",
+    "static/js/3.01dc2f2b.chunk.js.map": "/static/js/3.01dc2f2b.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.f4c56af9.chunk.css.map": "/static/css/2.f4c56af9.chunk.css.map",
+    "static/css/main.e4268997.chunk.css.map": "/static/css/main.e4268997.chunk.css.map",
+    "static/js/2.c4b68e0a.chunk.js.LICENSE.txt": "/static/js/2.c4b68e0a.chunk.js.LICENSE.txt",
+    "static/media/added-image.png": "/static/media/added-image.94b293c9.png",
+    "static/media/education.png": "/static/media/education.f21be753.png",
+    "static/media/empty.png": "/static/media/empty.f575b5cb.png",
+    "static/media/food.png": "/static/media/food.7bf88c6f.png",
+    "static/media/healthcare.png": "/static/media/healthcare.d26b4326.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.2a5371df.js",
+    "static/js/runtime-main.762cf323.js",
     "static/css/2.f4c56af9.chunk.css",
     "static/js/2.c4b68e0a.chunk.js",
-    "static/css/main.51f7b5df.chunk.css",
-    "static/js/main.c7a843b7.chunk.js"
+    "static/css/main.e4268997.chunk.css",
+    "static/js/main.4b410887.chunk.js"
   ]
 }
