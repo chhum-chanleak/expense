@@ -1,16 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
+import { toast, ToastContainer } from "react-toastify";
 import Card from "./card";
 import "./expense-list.css";
-import { toast, ToastContainer } from "react-toastify";
-
 const ExpenseList = () => {
   const { expenseList: list, query } = useSelector((state) => state.expenses);
   const filteredList = list.filter((item) => item.title.includes(query));
-  const notifySuccess = () => {
-    toast.success("Expense Deleted");
-  };
 
+  const notifySuccess = () => toast.success("Expense Deleted!");
   return (
     <div className="expense-list">
       <ToastContainer
@@ -28,10 +25,10 @@ const ExpenseList = () => {
         <div className="empty-state">
           <img
             src={require("../../assets/images/empty.png").default}
-            alt="No Expenses!"
+            alt="No Expenses"
             className="empty-image"
           />
-          <label>Your expense list is empty!</label>
+          <label>Uh Oh! Your expense list is empty.</label>
         </div>
       )}
     </div>
