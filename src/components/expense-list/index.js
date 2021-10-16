@@ -28,7 +28,7 @@ const ExpenseList = () => {
             alt="No Expenses"
             className="empty-image"
           />
-          <label>Uh Oh! Your expense list is empty.</label>
+          <label>Your expense list is empty.</label>
         </div>
       )}
     </div>
