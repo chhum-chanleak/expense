@@ -5,74 +5,92 @@
   padding: 12px 0px;
   align-items: center;
 }
-
-.topfold label {
-  cursor: pointer;
-}
-
 .home-topfold {
   display: flex;
   justify-content: space-between;
   flex: 1;
 }
-
 .search-bar {
   display: flex;
   align-items: center;
   width: 50%;
+  background-color: white;
   border-radius: 12px;
+}
+.search-bar input {
+  width: 85%;
+  outline: none;
+  padding: 8px 0px;
+  border: none;
+  margin-left: 6px;
   background-color: white;
 }
 
-.search-bar svg {
+.search-bar i {
   display: flex;
-  margin-left: 6px;
   align-items: center;
-}
-
-.search-bar input {
-  border: 0px;
-  border-radius: 6px;
-  outline: none;
-  padding: 8px 0px;
   margin-left: 6px;
-  width: 90%;
 }
 
 .add-button {
   display: flex;
+  align-items: center;
+  border-radius: 4px;
   border: 1px solid black;
-  border-radius: 6px;
   font-size: 20px;
   padding: 0px 8px;
+  border-radius: 6px;
   cursor: pointer;
-  align-items: center;
 }
 
-.add-button svg {
+.add-button label {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.add-button i {
   display: flex;
-  margin-left: 6px;
+  align-items: center;
+  margin-left: 4px;
 }
-
 .add-topfold {
   display: flex;
   justify-content: space-between;
   flex: 1;
 }
-
 .add-topfold-button {
   display: flex;
   align-items: center;
-  cursor: pointer;
   font-size: 18px;
   border: 1px solid black;
   border-radius: 6px;
   padding: 0px 8px;
-  font-weight: 600px;
+  cursor: pointer;
 }
-
-.add-topfold-button svg {
+.add-topfold-button i {
   display: flex;
   align-items: center;
-  margin-right: 4px;
+  font-weight: 600;
+}
+
+.add-topfold-button label {
+  font-weight: 600;
+  margin-left: 6px;
+  margin-right: 2px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1024px) {
+  .add-button {
+    font-size: 18px;
+  }
+  .sear-chbar {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 512px) {
+  .add-button {
+    font-size: 16px;
+  }
 }

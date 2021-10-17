@@ -88,19 +88,7 @@ const AddForm = () => {
             onClick={() => setCategoryOpen(!categoryOpen)}
           >
             <label>{category ? category.title : "Category"}</label>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="currentColor"
-              class="bi bi-chevron-compact-down"
-              viewBox="0 0 16 16"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z"
-              />
-            </svg>
+            <i class="bi bi-caret-down-fill"></i>
             <div>
               {categoryOpen && (
                 <div className="category-container">
@@ -124,17 +112,7 @@ const AddForm = () => {
       <div className="form-add-button">
         <div onClick={handleSubmit}>
           <label>Add</label>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="currentColor"
-            class="bi bi-plus-circle"
-            viewBox="0 0 16 16"
-          >
-            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
-            <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
-          </svg>
+          <i class="bi bi-plus-circle-fill"></i>
         </div>
       </div>
     </div>

@@ -16,9 +16,9 @@ const About = () => {
           Welcome to Expense-Tracker site. First of all, my name is Chhum
           Chanleak. I created this site using React.js, Bootstrap and a few
           packages. This site can be used to track your purchases. For example,
-          it tracks the name, price and the time when you bought the expense.
-          Moreover, you can as well search the expenses that you bought using
-          Search Bar.
+          it tracks the name, price and the time when enter the expense
+          information. Moreover, you can as well search the expenses that you
+          bought using Search Bar.
         </p>
       </div>
     </div>

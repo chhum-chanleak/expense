@@ -41,7 +41,7 @@
 }
 
 .category {
-  padding: 4px 16px;
+  padding: 4px 6px;
   border-radius: 6px;
   position: relative;
   width: 40%;
@@ -57,11 +57,11 @@
   margin-right: 6px;
   border-radius: 6px;
   background-color: lightgray;
-  padding: 4px 12px;
+  padding: 4px 4px;
 }
 
-.category-dropdown svg {
-  margin-left: 60px;
+.category-dropdown i {
+  position: relative;
 }
 
 .category-container {
@@ -112,15 +112,16 @@
   padding: 0px 8px;
   justify-content: center;
   align-items: center;
+  font-weight: 700;
   cursor: pointer;
 }
-.form-add-button div svg {
+.form-add-button div i {
   display: flex;
   align-items: center;
-  margin-left: 6px;
+  margin-left: 4px;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 768px) {
   .form-item {
     width: 100%;
   }
@@ -133,5 +134,21 @@
   }
   .category {
     width: 40%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .form-item {
+    width: 100%;
+  }
+
+  .form-item input {
+    width: 65%;
+  }
+  .amount-input {
+    width: 50% !important;
+  }
+  .category {
+    width: 50%;
   }
 }

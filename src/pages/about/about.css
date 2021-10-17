@@ -5,21 +5,20 @@
   margin: 6px 12px;
   padding: 10px;
   flex: 1;
-  min-height: 30vh;
+  min-height: 45vh;
 }
 
 .back-button {
-  background-color: solid white;
-  border: 1px solid black;
   border-radius: 6px;
   padding: 0px 8px;
-  width: 5%;
+  border: 1px solid black;
   cursor: pointer;
-  margin-left: 16px;
+  margin-bottom: 40px;
+  width: 2%;
 }
 
 .back-button label {
-  margin-left: 4px;
+  margin: auto;
   cursor: pointer;
   font-weight: 600;
 }
@@ -34,19 +33,19 @@
   flex-direction: column;
   flex: 1;
   min-height: 20vh;
-  width: 80%;
+  width: 70%;
   text-align: justify;
   text-indent: 50px;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 768px) {
   .back-button {
     width: 10%;
   }
 }
 
-@media only screen and (max-width: 512px) {
+@media only screen and (min-width: 768px) {
   .back-button {
-    width: 15%;
+    width: 10%;
   }
 }
