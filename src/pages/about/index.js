@@ -11,6 +11,7 @@ const About = () => {
           <label>Back</label>
         </div>
       </Link>
+
       <div className="about-info">
         <p>
           Welcome to Expense-Tracker site. First of all, my name is Chhum

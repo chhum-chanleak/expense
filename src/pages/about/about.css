@@ -10,11 +10,10 @@
 
 .back-button {
   border-radius: 6px;
-  padding: 0px 8px;
-  border: 1px solid black;
   cursor: pointer;
+
   margin-bottom: 40px;
-  width: 2%;
+  width: 25px;
 }
 
 .back-button label {
@@ -38,9 +37,17 @@
   text-indent: 50px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 586px) {
   .back-button {
-    width: 10%;
+    width: 12%;
+  }
+
+  .about-info {
+    font-size: 16px;
+  }
+
+  .p {
+    word-spacing: 2000px;
   }
 }
 
