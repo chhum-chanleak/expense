@@ -13,7 +13,7 @@ const TopFold = () => {
   };
   return (
     <div className="topfold">
-      {window.location.pathname === "/expense" ? (
+      {window.location.pathname === "/expense/" ? (
         <div className="home-topfold">
           <div className="search-bar">
             <i class="bi bi-search"></i>
