@@ -35,8 +35,7 @@ const TopFold = () => {
           <Link to="/">
             {" "}
             <div className="add-topfold-button">
-              <i class="bi bi-arrow-left"></i>
-              <label>Back</label>
+              <label>Go Back</label>
             </div>
           </Link>
           <Link to="/">

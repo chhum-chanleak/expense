@@ -5,12 +5,11 @@ import "./about.css";
 const About = () => {
   return (
     <div className="about">
-      <Link to="/">
-        <div className="back-button">
-          <i class="bi bi-arrow-left"></i>
-          <label>Back</label>
-        </div>
-      </Link>
+      <div className="back-button">
+        <Link to="/">
+          <button>Go Back</button>
+        </Link>
+      </div>
 
       <div className="about-info">
         <p>

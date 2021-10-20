@@ -12,6 +12,7 @@ function App() {
       <Header />
       <Switch>
         <Route path="/" exact component={Home} />
+        <Route path="/expense" component={Home} />
         <Route path="/add-expense" component={AddExpense} />
         <Route path="/about" component={About} />
       </Switch>

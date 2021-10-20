@@ -8,12 +8,12 @@
   min-height: 45vh;
 }
 
-.back-button {
-  border-radius: 6px;
-  cursor: pointer;
-
+button {
+  background-color: #8f00ff;
   margin-bottom: 40px;
-  width: 25px;
+  border: 1px solid black;
+  border-radius: 8px;
+  font-weight: 700;
 }
 
 .back-button label {
@@ -43,7 +43,7 @@
   }
 
   .about-info {
-    font-size: 16px;
+    font-size: 12px;
   }
 
   .p {
@@ -52,7 +52,4 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .back-button {
-    width: 10%;
-  }
 }
