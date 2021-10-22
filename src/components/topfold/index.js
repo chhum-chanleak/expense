@@ -13,7 +13,7 @@ const TopFold = () => {
   };
   return (
     <div className="topfold">
-      {window.location.pathname === "/" ? (
+      {window.location.pathname === "expense/" ? (
         <div className="home-topfold">
           <div className="search-bar">
             <i class="bi bi-search"></i>
@@ -32,13 +32,13 @@ const TopFold = () => {
         </div>
       ) : (
         <div className="add-topfold">
-          <Link to="/">
+          <Link to="expense/">
             {" "}
             <div className="add-topfold-button">
               <label>Go Back</label>
             </div>
           </Link>
-          <Link to="/">
+          <Link to="expense/">
             <div className="add-topfold-button">
               <label>Cancel</label>
               <i class="bi bi-x-octagon-fill"></i>
