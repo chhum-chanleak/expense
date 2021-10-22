@@ -1,4 +1,4 @@
-import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
+import { Route, BrowserRouter as Router } from "react-router-dom";
 import "./App.css";
 import Footer from "./components/footer";
 import Header from "./components/header";
@@ -10,12 +10,9 @@ function App() {
   return (
     <Router>
       <Header />
-      <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/expense" component={Home} />
-        <Route path="/add-expense" component={AddExpense} />
-        <Route path="/about" component={About} />
-      </Switch>
+      <Route path="/expense" exact component={Home} />
+      <Route path="/add-expense" component={AddExpense} />
+      <Route path="/about" component={About} />
       <Footer />
     </Router>
   );

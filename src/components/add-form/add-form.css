@@ -44,7 +44,7 @@
   padding: 4px 6px;
   border-radius: 6px;
   position: relative;
-  width: 40%;
+  width: 60%;
   background-color: white;
 }
 
@@ -114,6 +114,7 @@
   align-items: center;
   font-weight: 700;
   cursor: pointer;
+  background-color: lightgray;
 }
 .form-add-button div i {
   display: flex;
@@ -133,7 +134,7 @@
     width: 50% !important;
   }
   .category {
-    width: 40%;
+    width: 60%;
   }
 }
 

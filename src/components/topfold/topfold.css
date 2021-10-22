@@ -41,6 +41,7 @@
   padding: 0px 8px;
   border-radius: 6px;
   cursor: pointer;
+  background-color: lightgray;
 }
 
 .add-button label {
@@ -66,6 +67,7 @@
   border-radius: 6px;
   padding: 0px 8px;
   cursor: pointer;
+  background-color: lightgray;
 }
 .add-topfold-button i {
   display: flex;
