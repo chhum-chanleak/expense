@@ -1,0 +1,11 @@
+.start {
+  margin-top: 100px;
+}
+
+.click-here-button {
+  display: flex;
+  background-color: green;
+  height: 6vh;
+  font-size: 30px;
+  margin: auto;
+}
