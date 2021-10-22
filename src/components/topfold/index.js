@@ -32,13 +32,13 @@ const TopFold = () => {
         </div>
       ) : (
         <div className="add-topfold">
-          <Link to="/expense">
+          <Link to="/expense/">
             {" "}
             <div className="add-topfold-button">
               <label>Go Back</label>
             </div>
           </Link>
-          <Link to="/expense">
+          <Link to="/expense/">
             <div className="add-topfold-button">
               <label>Cancel</label>
               <i class="bi bi-x-octagon-fill"></i>
