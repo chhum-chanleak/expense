@@ -25,7 +25,7 @@ const SuccessModal = ({ modalOpen, setModalOpen }) => {
           alt="Expense Added"
           className="added-image"
         />
-        <Link to="/expense/">
+        <Link to="/">
           <div className="take-home-button">
             <i class="bi bi-house-door-fill"></i>
             Home
