@@ -6,8 +6,7 @@ export const Start = () => {
   return (
     <div className="start">
       <Link to="/">
-        <i class="bi bi-arrow-right"></i>
-        <button className="click-here-button">Click here to Start!</button>
+        <button className="click-here-button">Click here to START!</button>
       </Link>
     </div>
   );
