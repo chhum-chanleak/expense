@@ -1,19 +1,17 @@
 {
   "files": {
-    "main.css": "/expense/static/css/main.d1bb2762.chunk.css",
-    "main.js": "/expense/static/js/main.a2213347.chunk.js",
-    "main.js.map": "/expense/static/js/main.a2213347.chunk.js.map",
-    "runtime-main.js": "/expense/static/js/runtime-main.fa0e053e.js",
-    "runtime-main.js.map": "/expense/static/js/runtime-main.fa0e053e.js.map",
+    "main.css": "/expense/static/css/main.8d45e29d.chunk.css",
+    "main.js": "/expense/static/js/main.a6724e6a.chunk.js",
+    "main.js.map": "/expense/static/js/main.a6724e6a.chunk.js.map",
+    "runtime-main.js": "/expense/static/js/runtime-main.3f390e8a.js",
+    "runtime-main.js.map": "/expense/static/js/runtime-main.3f390e8a.js.map",
     "static/css/2.f4c56af9.chunk.css": "/expense/static/css/2.f4c56af9.chunk.css",
-    "static/js/2.c2a88710.chunk.js": "/expense/static/js/2.c2a88710.chunk.js",
-    "static/js/2.c2a88710.chunk.js.map": "/expense/static/js/2.c2a88710.chunk.js.map",
-    "static/js/3.d4339688.chunk.js": "/expense/static/js/3.d4339688.chunk.js",
-    "static/js/3.d4339688.chunk.js.map": "/expense/static/js/3.d4339688.chunk.js.map",
+    "static/js/2.60d74571.chunk.js": "/expense/static/js/2.60d74571.chunk.js",
+    "static/js/2.60d74571.chunk.js.map": "/expense/static/js/2.60d74571.chunk.js.map",
     "index.html": "/expense/index.html",
     "static/css/2.f4c56af9.chunk.css.map": "/expense/static/css/2.f4c56af9.chunk.css.map",
-    "static/css/main.d1bb2762.chunk.css.map": "/expense/static/css/main.d1bb2762.chunk.css.map",
-    "static/js/2.c2a88710.chunk.js.LICENSE.txt": "/expense/static/js/2.c2a88710.chunk.js.LICENSE.txt",
+    "static/css/main.8d45e29d.chunk.css.map": "/expense/static/css/main.8d45e29d.chunk.css.map",
+    "static/js/2.60d74571.chunk.js.LICENSE.txt": "/expense/static/js/2.60d74571.chunk.js.LICENSE.txt",
     "static/media/added-image.png": "/expense/static/media/added-image.94b293c9.png",
     "static/media/education.png": "/expense/static/media/education.f21be753.png",
     "static/media/empty.png": "/expense/static/media/empty.f575b5cb.png",
@@ -21,10 +19,10 @@
     "static/media/healthcare.png": "/expense/static/media/healthcare.d26b4326.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.fa0e053e.js",
+    "static/js/runtime-main.3f390e8a.js",
     "static/css/2.f4c56af9.chunk.css",
-    "static/js/2.c2a88710.chunk.js",
-    "static/css/main.d1bb2762.chunk.css",
-    "static/js/main.a2213347.chunk.js"
+    "static/js/2.60d74571.chunk.js",
+    "static/css/main.8d45e29d.chunk.css",
+    "static/js/main.a6724e6a.chunk.js"
   ]
 }
