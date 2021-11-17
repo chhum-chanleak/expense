@@ -37,6 +37,7 @@ button {
   width: 70%;
   text-align: justify;
   text-indent: 50px;
+  font-size: 18px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -48,11 +49,11 @@ button {
   .about-info {
     font-size: 12px;
   }
-
-  .p {
-    word-spacing: 2000px;
-  }
 }
 
 @media only screen and (min-width: 768px) {
+  .back-button {
+    width: 18%;
+    padding: 4px 0px;
+  }
 }

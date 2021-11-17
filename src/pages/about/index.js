@@ -13,12 +13,12 @@ const About = () => {
 
       <div className="about-info">
         <p>
-          Welcome to Expense-Tracker site. First of all, my name is Chhum
+          Welcome to Expense-Record site. First of all, my name is Chhum
           Chanleak. I created this site using React.js, Bootstrap and a few
-          packages. This site can be used to track your purchases. For example,
+          Libraries. This site can be used to track your purchases. For example,
           it tracks the name, price and the time when enter the expense
-          information. Moreover, you can as well search the expenses that you
-          bought using Search Bar.
+          information. Moreover, you can as well search the expenses information
+          that you provided using Search Bar.
         </p>
       </div>
     </div>

@@ -5,14 +5,13 @@ import Header from "./components/header";
 import About from "./pages/about";
 import AddExpense from "./pages/add-expense";
 import Home from "./pages/home";
-import { Start } from "./pages/start";
 
 function App() {
   return (
     <Router>
       <Header />
       <Switch>
-        <Route path="/expense/" component={Start} />
+        <Route path="/expense" component={AddExpense} />
         <Route path="/" exact component={Home} />
         <Route path="/add-expense" component={AddExpense} />
         <Route path="/about" component={About} />

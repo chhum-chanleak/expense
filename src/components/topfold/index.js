@@ -19,7 +19,7 @@ const TopFold = () => {
             <i class="bi bi-search"></i>
             <input
               value={query}
-              placeholder="Search for expenses"
+              placeholder="Search for expenses..."
               onChange={(e) => handleQuery(e)}
             />
           </div>
